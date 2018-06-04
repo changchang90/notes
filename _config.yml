@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Notes
-tagline:          'It's a site for notes'
+tagline:          'It is a site for notes'
 description:      'This is the website I will take some notes here.'
 url:              https://changchang90.github.io/notes/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
