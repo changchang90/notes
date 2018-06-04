@@ -1,4 +1,5 @@
 <p>
-  &copy; {{ site.time | date: '%Y' }}.
-  <a href="{{ site.baseurl }}/LICENSE.md">MIT License.</a>
+  {% if site.version %}
+    <span class="site-version">Blog Ver {{ site.version }} - </span>
+  {% endif %}{{ site.time | date: '%Y' }}.
 </p>
