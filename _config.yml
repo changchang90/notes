@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Notes
+title:            CHANG's NOTE
 tagline:          'It is a site for notes'
 description:      'This is the website I will take some notes here.'
 url:              https://changchang90.github.io/notes/
