@@ -418,6 +418,14 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
+Another choice: Use iframe to show the youtube content if you are using html page to show markdown.
+
+```html
+<iframe width="640" height="480" src="https://www.youtube.com/watch?v=GgpkUGjmZus" frameborder="0" allowfullscreen></iframe>
+```
+
+<iframe width="640" height="480" src="https://www.youtube.com/watch?v=GgpkUGjmZus" frameborder="0" allowfullscreen></iframe>
+
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
 
 ---
