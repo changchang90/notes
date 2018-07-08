@@ -421,13 +421,14 @@ Or, in pure Markdown, but losing the image sizing and border:
 Another choice: Use iframe to show the youtube content if you are using html page to show markdown.
 
 ```html
-<iframe width="640" height="480" src="https://www.youtube.com/watch?v=GgpkUGjmZus" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/GgpkUGjmZus" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ```
 
-<iframe width="640" height="480" src="https://www.youtube.com/watch?v=GgpkUGjmZus" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/GgpkUGjmZus" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
 
 ---
 
 License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)⏎
+
